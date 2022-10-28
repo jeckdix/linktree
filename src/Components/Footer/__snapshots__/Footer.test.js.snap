@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render without errors 1`] = `
+<DocumentFragment>
+  <footer
+    class="sc-bcXHqe dfQTNY"
+  >
+    <div
+      class="sc-gswNZR jkUtxa"
+    >
+      <img
+        alt="footer"
+        class="sc-dkrFOg ehcWUz"
+        src="Zuri-internship.png"
+      />
+      <h3
+        class="sc-hLBbgP fynkll"
+      >
+        HNG Internship 9 Frontend Task
+      </h3>
+      <img
+        alt="I4G"
+        class="sc-dkrFOg ehcWUz"
+        src="I4G.png"
+      />
+    </div>
+  </footer>
+</DocumentFragment>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render without errors 1`] = `
+<DocumentFragment>
+  <a
+    class="sc-bcXHqe jAgPMp"
+    href="https://training.zuri.team/"
+    id="btn__zuri"
+  >
+    <h3
+      class="sc-gswNZR fEFhHF"
+    >
+      Zuri Team
+    </h3>
+  </a>
+</DocumentFragment>
+`;
