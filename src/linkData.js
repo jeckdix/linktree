@@ -2,12 +2,12 @@ export const linkData = [
   {
     id: "twitter",
     link: "https://twitter.com/bossjidex",
-    title: "Twitter Link",
+    title: "Let's talk",
   },
   {
     id: "btn__zuri",
     link: "https://training.zuri.team/",
-    title: "Zuri Team",
+    title: "Meet Zuri Team",
   },
   {
     id: "books",

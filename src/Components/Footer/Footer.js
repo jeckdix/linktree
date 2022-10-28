@@ -4,13 +4,15 @@ import styled from "styled-components";
 const FooterSection = styled.footer`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding: 10px 0px;
-  background: #ffffff;  
+  margin-left: 10px;
+  background: #ffffff;
+  border-top: 1px solid rgba(0,0,0,.05);
   @media (min-width: 1200px) {
     padding: 32px 0px;
-
+    border: none;
   }
 
 `;

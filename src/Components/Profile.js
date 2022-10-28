@@ -1,30 +1,71 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../Assets/profile.jpeg";
+import image from "../Assets/jide-profile-pic.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCameraAlt } from "@fortawesome/free-solid-svg-icons";
+import { faCameraAlt, faShare, faSquareShareNodes } from "@fortawesome/free-solid-svg-icons";
 
 const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 24px;
   isolation: isolate;
   align-self: stretch;
-  margin-bottom: 20px;
+
+  .share-icon {
+    font-size: 20px;
+    color: #98a2b3;
+    position: relative;
+    border: 1px dashed #d0d5dd;
+    border-radius: 50px;
+    padding: 10px;
+    top: -80px;
+    right: -150px;
+    display: none;
+
+    @media (min-width: 1200px) {
+      top: -80px;
+      right: -496px;  
+      display: block;
+    }
+  }
+  .share-icon:hover {
+    border: 1px solid #d0d5dd;
+    border-radius: 20px;
+    background: #d0d5dd;
+  }
+
+  .share-icon2 {
+    font-size: 20px;
+    color: #98a2b3;
+    position: relative;
+    border: 1px dashed #d0d5dd;
+    border-radius: 50px;
+    padding: 10px;
+    top: -80px;
+    right: -150px;
+
+    @media (min-width: 1200px) {
+      display: none;
+    }
+  }
+  .share-icon2:hover {
+    border: 1px solid #d0d5dd;
+    border-radius: 20px;
+    background: #d0d5dd;
+  }
 `;
+
+
 const StyledImg = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
   vertical-align: middle;
-  width: 110px;
-  height: 110px;
   background: url(${image});
   border-radius: 275px;
-  width: 88px;
-  height: 88px;
+  width: 80px;
+  height: 80px;
+
 
   .camera-icon {
     display: none;
@@ -41,9 +82,9 @@ const StyledImg = styled.div`
   }
 
   @media (min-width: 1200px) {
-    &:focus {
+    :focus {
       background: url(${image});
-      border: 5.5px solid #ebe9fe;
+      border: 100px solid black;
       border-radius: 275px;
     }
   }
@@ -69,15 +110,13 @@ const StyledTitle = styled.h3`
 const Profile = () => {
   return (
     <Section>
-      {/* <StyledImg
-        id="profile__img"
-        src={require("../Assets/profile.jpeg")}
-        alt="avatar"
-      /> */}
-
-      <StyledImg>
-        <FontAwesomeIcon icon={faCameraAlt} className="camera-icon" size="xl" />
-      </StyledImg>
+      <div>
+        <StyledImg>
+          <FontAwesomeIcon icon={faCameraAlt} className="camera-icon" size="xl" />
+        </StyledImg>
+        <FontAwesomeIcon icon={faShare} className="share-icon" size="xl" />
+        <FontAwesomeIcon icon={faSquareShareNodes} className=" share-icon2" size="xl" />
+      </div>
       <StyledTitle id="twitter">@bossjidex</StyledTitle>
       <StyledTitle hidden id="debugger">
         debugger
