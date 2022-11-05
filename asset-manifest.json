@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/linktree/static/css/main.4f18dcc7.css",
-    "main.js": "/linktree/static/js/main.9cebf4b0.js",
+    "main.js": "/linktree/static/js/main.d4fe5667.js",
     "static/media/slack-logo.png": "/linktree/static/media/slack-logo.2ec092605abd1b143e30.png",
     "static/media/jide-profile-pic.png": "/linktree/static/media/jide-profile-pic.444ab9d3089313883c4a.png",
     "index.html": "/linktree/index.html",
     "main.4f18dcc7.css.map": "/linktree/static/css/main.4f18dcc7.css.map",
-    "main.9cebf4b0.js.map": "/linktree/static/js/main.9cebf4b0.js.map"
+    "main.d4fe5667.js.map": "/linktree/static/js/main.d4fe5667.js.map"
   },
   "entrypoints": [
     "static/css/main.4f18dcc7.css",
-    "static/js/main.9cebf4b0.js"
+    "static/js/main.d4fe5667.js"
   ]
 }
