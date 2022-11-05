@@ -30,4 +30,9 @@ export const linkData = [
     link: "https://books.zuri.team/design-rules",
     title: "Design Books",
   },
+  {
+    id: "contact",
+    link: "/contact",
+    title: "Contact Me",
+  },
 ];

@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
-const StyledLink = styled.a`
+const StyledLink = styled(Link)`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +14,7 @@ const StyledLink = styled.a`
   border: 1px solid #D0D5DD;
   border-radius: 8px;
   text-decoration: none;
-  width: 343px;
+  width: 355px;
   height: 68px;
   :hover {
     background: #EAECF0; 
@@ -47,7 +48,7 @@ const StyledTitle = styled.h3`
 
 const Button = (props) => {
   return (
-      <StyledLink href={props.link} id={props.id}>
+      <StyledLink to={props.link} id={props.id}>
         <StyledTitle>{props.title}</StyledTitle>
       </StyledLink>
   );

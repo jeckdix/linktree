@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import image from "../Assets/jide-profile-pic.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCameraAlt, faShare, faSquareShareNodes } from "@fortawesome/free-solid-svg-icons";
+import { faCameraAlt, faEllipsis, faShare } from "@fortawesome/free-solid-svg-icons";
 
 const Section = styled.section`
   display: flex;
@@ -42,7 +42,7 @@ const Section = styled.section`
     border-radius: 50px;
     padding: 10px;
     top: -80px;
-    right: -150px;
+    right: -220%;
 
     @media (min-width: 1200px) {
       display: none;
@@ -115,7 +115,7 @@ const Profile = () => {
           <FontAwesomeIcon icon={faCameraAlt} className="camera-icon" size="xl" />
         </StyledImg>
         <FontAwesomeIcon icon={faShare} className="share-icon" size="xl" />
-        <FontAwesomeIcon icon={faSquareShareNodes} className=" share-icon2" size="xl" />
+        <FontAwesomeIcon icon={faEllipsis} className=" share-icon2" size="xl" />
       </div>
       <StyledTitle id="twitter">@bossjidex</StyledTitle>
       <StyledTitle hidden id="debugger">

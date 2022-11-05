@@ -16,7 +16,7 @@ export const LinkSection = styled.section`
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 8px;
+  gap: 14px;
   order: 1;
   align-self: stretch;
 
